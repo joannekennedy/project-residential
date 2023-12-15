@@ -1,5 +1,3 @@
-<script type="text/javascript">
-
     var formContainer = document.querySelector(".product-form");
     var formID = formContainer.getAttribute("id");  
     var novCont, curr_variation;
@@ -96,4 +94,3 @@
             });
         });
 }); 
-</script>
