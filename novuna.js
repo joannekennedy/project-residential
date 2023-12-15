@@ -6,7 +6,10 @@
     novCont = $('.appinbox-product-finance-highlight-box');
     novCont.hide();
     var productId = ;
-    var novunaFinanceURL = '';
+    var branchId = "70421700";
+    var clientId = "0e8d79ef7bd8287145c1acc0e2b9124a;
+    var clientSecret = "789e13a40e764a20062903a30f66208933421e3e6ec5a7fceb8101908723b286";
+    var novunaFinanceURL = 'https://credit.demo.paybyfinance.co.uk/application/{applicationId}';
     var sectionId = 'template--product__main';
     var productFormID = '#'+formID;
     var variantIdSelector = "#product-form-installment-" + sectionId + "-" + productId;
@@ -33,7 +36,7 @@
 
         //With New API - Updating the Finance box on page load
         $.ajax({
-            url: novunaFinanceURL+'/api/v1/finance/product-page?pId=8713244213531&vId='+onLoad_variation,
+            url: novunaFinanceURL+'/api/v1/finance/product-page?pId='+productId+'&vId='+onLoad_variation,
             dataType: 'json',
             cache: false,
             success: function(result) {
@@ -66,7 +69,7 @@
             curr_variation = $(this).val();
             console.log(curr_variation);
             $.ajax({
-                url: novunaFinanceURL+'/api/v1/finance/product-page?pId=8713244213531&vId='+curr_variation,
+                url: novunaFinanceURL+'/api/v1/finance/product-page?pId='+productId+'&vId='+curr_variation,
                 dataType: 'json',
             cache: false,
             success: function(result) {
