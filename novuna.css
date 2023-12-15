@@ -1,0 +1,770 @@
+.novunaBlock {
+    background: #f6f4f2;
+    padding: 20px;
+    border-radius: 1px
+}
+
+.novunaBlock img {
+    mix-blend-mode: multiply
+}
+
+.novunaBlock .novuna_content {
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 26px;
+    color: #554e5c
+}
+
+.novunaBlock .novuna_content a {
+    padding: 0;
+    border: none;
+    background: none;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #554e5c
+}
+
+#Nou_popupiframe.modal {
+    background: #00000087
+}
+
+#Nou_popupiframe.modal .modal-dialog.modal-lg {
+    max-width: 700px;
+    margin: 0;
+    transform: none
+}
+
+#Nou_popupiframe.modal .modal-dialog.modal-lg .modal-content {
+    max-height: 1500px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0
+}
+
+#Nou_popupiframe.modal .modal-dialog.modal-lg .modal-content iframe {
+    min-height: 536px;
+    height: 100%
+}
+
+#Nou_popupiframe.modal .modal-dialog.modal-lg .modal-content span.close {
+    font-size: 15px;
+    opacity: 1;
+    font-family: Garamond, Baskerville, Caslon, serif;
+    color: #554e5c;
+    margin: 8px 0 0
+}
+
+#Nou_popupiframe.modal .modal-dialog.modal-lg .modal-content .novLogo {
+    float: left
+}
+
+#Nou_popupiframe.modal #loader {
+    position: absolute;
+    width: 100%;
+    height: 1260px;
+    background: #00000038;
+    text-align: center
+}
+
+#loader .loadCont {
+    color: #fff;
+    position: relative;
+    margin-top: 150px;
+    font-size: 32px;
+    font-weight: 900
+}
+
+.overflow-hidden .op-crt,
+.overflow-hidden .swym-anchor-badge.show-badge {
+    opacity: 0
+}
+
+.finance-wrap aside.sidebar {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid #ececec
+}
+
+.finance-wrap aside.sidebar h2.visually-hidden {
+    position: relative !important;
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    font-weight: 900;
+    color: #696a6f;
+    text-align: center;
+    margin-bottom: 5px
+}
+
+.finance-wrap aside.sidebar table.product-table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 2px
+}
+
+.finance-wrap aside.sidebar table thead.product-table__header {
+    flex-shrink: 0;
+    background: #f1f1f1;
+    border-bottom: 1px solid #d7d7d7
+}
+
+.finance-wrap aside.sidebar table thead.product-table__header tr,
+.finance-wrap aside.sidebar table tr.product {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.finance-wrap aside.sidebar table * {
+    font-size: 14px
+}
+
+.finance-wrap aside.sidebar span.visually-hidden {
+    position: relative !important;
+    font-weight: 200;
+    font-size: 12px;
+    height: auto !important
+}
+
+.finance-wrap aside.sidebar table tr.product th span {
+    font-size: 13px;
+    font-weight: 300
+}
+
+.finance-wrap aside.sidebar table.total-line-table caption.visually-hidden {
+    position: relative !important;
+    height: auto;
+    width: 100%;
+    font-weight: 800;
+    text-align: center;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc
+}
+
+.finance-wrap aside.sidebar table.total-line-table th span.visually-hidden {
+    display: none
+}
+
+.finance-wrap aside.sidebar table tr.total-line th.total-line__name {
+    font-weight: 200
+}
+
+.finance-wrap aside.sidebar table tr.total-line th.total-line__name,
+.finance-wrap aside.sidebar table tr.total-line td.total-line__price {
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #ccc;
+    text-transform: capitalize
+}
+
+.finance-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    min-height: 100vh
+}
+
+.finance-wrap aside.sidebar table td:nth-child(2) {
+    text-align: right
+}
+
+.finance-wrap .main {
+    width: 60%
+}
+
+.finance-wrap .main .step__sections h2#main-header {
+    margin: 0 0 20px;
+    font-weight: 900
+}
+
+.finance-wrap .main .section__content .content-box:first-child {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px 20px
+}
+
+.finance-wrap .main .section__content .content-box:first-child div:first-child {
+    margin: 5px 0 0
+}
+
+.finance-wrap .main .section__content .content-box:first-child img {
+    margin-right: 15px
+}
+
+.finance-wrap .main .section__content .content-box:first-child h2.heading-2.os-step__title {
+    font-weight: 900;
+    margin: 0
+}
+
+.finance-wrap .main .section__content .content-box p {
+    font-size: 13px
+}
+
+.finance-wrap .main .section__content .content-box h2.heading-2 {
+    margin: 20px 0 0;
+    font-weight: 800
+}
+
+.finance-wrap .main .section__content .content-box h2 {
+    font-weight: 700
+}
+
+.page-width.finanace #loader {
+    width: 100%;
+    text-align: center;
+    min-height: 100vh
+}
+
+.page-width.finanace #loader img {
+    max-width: 70px;
+    padding-top: 150px
+}
+
+div#Nou_popupiframe.modal {
+    transition: all .5s ease-in-out 0s;
+    -webkit-transition: all .5s ease-in-out 0s;
+    transform: translateY(-100vh);
+    opacity: 0;
+    height: 0px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 11111
+}
+
+div#Nou_popupiframe.modal.active {
+    display: block !important;
+    position: fixed;
+    z-index: 11111;
+    width: 100%;
+    max-width: 700px;
+    height: 600px;
+    top: 50px;
+    background: #fff;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    opacity: 1;
+    overflow-y: hidden;
+    box-shadow: 7px 2px 13px #0006;
+    border-radius: 5px;
+    transition: all .5s ease-in-out 0s;
+    -webkit-transition: all .5s ease-in-out 0s;
+    transform: translateY(0)
+}
+
+div#Nou_popupiframe.modal.active .modal-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 900
+}
+
+div#Nou_popupiframe.modal.active span.close,
+.novunaBlock .novuna_content .nov_open {
+    cursor: pointer
+}
+
+body.modal-open:before {
+    content: "";
+    background: #0000009c;
+    z-index: 1111;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    position: fixed;
+    transition: all .5s ease-in-out 0s;
+    -webkit-transition: all .5s ease-in-out 0s
+}
+
+body.modal-open.mdclose:before {
+    content: "";
+    background: #0000009c;
+    z-index: 1111;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    opacity: 0;
+    position: fixed;
+    transition: all .5s ease-in-out 0s;
+    -webkit-transition: all .5s ease-in-out 0s
+}
+
+.novunaBlock.v2 {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    padding-left: 0
+}
+
+.novunaBlock.v2 .novuna_content {
+    font-size: 18px;
+    color: #000;
+    line-height: 19px
+}
+
+.novunaBlock.v2 .novuna_content .nf_month {
+    font-size: 12px;
+    color: #5b5b5b
+}
+
+.novunaBlock.v2 .novuna_content .monthAmt {
+    font-weight: 600
+}
+
+.novunaBlock.v2 .novuna_content .monthAmt:before {
+    content: "\a3"
+}
+
+@media only screen and (min-width:300px) and (max-width:900px) {
+    .novunaBlock.v2 {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .novunaBlock.v2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column
+    }
+}
+
+.finance-novuna {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.finance-novuna .text-wrapper {
+    text-align: center;
+}
+
+.finance-novuna {
+    border: 1px solid var(--border);
+    padding: 16px;
+}
+
+.finance-novuna p.osm-message {
+    display: flex;
+    flex-direction: column;
+    left: auto;
+    align-items: center;
+}
+
+.finance-novuna .badge-container {
+    width: 60px;
+    height: 30px;
+    background: #7d3cff;
+    border-radius: 5px;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+}
+
+.finance-novuna .badge-container .badger {
+    width: 100%;
+}
+
+
+.iframeContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.container--calculator {
+    padding: 0;
+}
+
+@media screen and (max-width:560px) {
+    .container--calculator {
+        padding: 2em 15px 15px 1em;
+    }
+
+    .iframe-novuna-logo {
+        max-width: 100px;
+        padding: 10px;
+        padding-top: 30px;
+    }
+
+}
+
+.calculator h1,
+.calculator h2,
+.calculator h3,
+.calculator .finance-name {
+    text-shadow: 0px 0px 0.05em rgba(0, 0, 0, 0.2);
+}
+
+.calculator__total {
+    color: #554E5C;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 10px 0 0 0;
+}
+
+.deposit-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 52px;
+    color: #554E5C;
+}
+
+.calculator__total__title {}
+
+.calculator__total__value {
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.calculator__section.finance-breakdown {
+    padding: 10px 20px;
+    overflow: auto;
+    background: rgba(212, 200, 190, 0.2);
+    border-radius: 8px;
+}
+
+.finance-breakdown-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: #554E5C;
+    margin: 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid rgba(85, 78, 92, 0.4);
+}
+
+.calculator__section {
+    padding: 0 15px;
+    overflow: auto;
+}
+
+.calculator__section+.calculator__section {
+    /*padding-top:1em;*/
+}
+
+.calculator__notice {
+    color: #6e6e6e;
+}
+
+.calculator__finance {
+    /*padding-bottom:1em;*/
+}
+
+.calculator__info .calculator__info__value {
+    font-weight: 700;
+}
+
+.calculator__info p {
+    margin: 0;
+}
+
+.calculator__info .row+.row {
+    margin-top: 0.666em;
+}
+
+.calculator__finance__options.tac {
+    border-bottom: 1px solid rgba(85, 78, 92, 0.4);
+    padding-bottom: 15px;
+}
+
+.calculator__info__numbers,
+.calculator__info__details {}
+
+.calculator__info__numbers>.row.justify-content-between:nth-child(even) {
+    background: #fff;
+}
+
+h3#finance-title {
+    color: #554E5C;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.calculator__info__details {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:479px) {
+    .calculator__info__details .col-xsm-6:first-child {
+        margin-bottom: 0.666em;
+    }
+
+}
+
+.calculator__info__numbers .row {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 5px;
+}
+
+.calculator__info__numbers .row+.row {
+    margin-top: 5px;
+}
+
+.calculator__info__numbers .row:last-child {
+    border-bottom: none;
+}
+
+.calculator__bottom p {
+    margin-bottom: 1em;
+}
+
+.calculator__bottom p:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width:400px) {
+    .calculator__info__value br {
+        display: none;
+    }
+
+}
+
+.calculator__bottom {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.note {
+    color: currentColor;
+    opacity: 0.35;
+    letter-spacing: 0.35px;
+    font-size: smaller;
+    line-height: inherit;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 0;
+}
+
+.calculator__finance__deposittext {
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+.deposit-currency,
+.calculator__finance__deposittext [type=number] {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.deposit-currency {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(0.5em);
+    color: #554E5C;
+}
+
+.calculator__finance__deposittext [type=number] {
+    padding: 0.8em 0.8em 0.8em 1.3em;
+    text-align: left;
+    width: 100%;
+    border: 1px solid rgba(85, 78, 92, 0.4);
+    color: #554E5C;
+    font-weight: 400;
+}
+
+.calculator__finance input[type="range"] {
+    width: 100%;
+}
+
+.calculator__finance__depositrange {
+    display: block;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(85, 78, 92, 0.4);
+}
+
+.deposit-range-labels {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 0.666em;
+    padding-bottom: 0.5em;
+}
+
+.deposit-range-label--min {
+    flex-basis: 10%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: #554E5C;
+}
+
+.deposit-range-label--text {
+    flex-basis: 80%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #554E5C;
+}
+
+.deposit-range-label--max {
+    flex-basis: 10%;
+    text-align: right;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: #554E5C;
+}
+
+.calculator__finance__options .h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #554E5C;
+}
+
+.finance-name {
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #554E5C;
+}
+
+@media screen and (max-width:576px) {
+
+    .finance-name::before,
+    .finance-name::after {
+        display: none;
+    }
+}
+
+.finance-option-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.calculator--small .finance-option-list {
+    justify-content: left;
+}
+
+.finance-option {
+    font-size: 14px;
+    flex-basis: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0.5em;
+    color: #000000;
+    line-height: 1.3em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    background: rgb(212 200 190 / 20%);
+    border-radius: 8px;
+}
+
+.finance-option,
+.finance-option * {
+    cursor: pointer;
+}
+
+.calculator--small .finance-option {
+    min-width: 39px;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0.4em;
+    padding: 7px 10px;
+    border: 1px solid #d3d3d3;
+    background-color: #e7e7e7;
+    background-image: -webkit-gradient(linear, right top, right bottom, color-stop(47%, #f3f3f3), color-stop(49%, #e7e7e7));
+}
+
+.finance-option:hover,
+.finance-option.selected {
+    color: #fff;
+    background-color: #554E5C;
+}
+
+.finance-option:hover .loan__months,
+.finance-option.selected .loan__months {
+    color: #FFFFFF;
+}
+
+.loan__months {
+    float: none;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #554E5C;
+}
+
+.loan__months__number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.loan__months small {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.container--deposit {
+    background-color: #f6f6f6;
+    padding: 3em;
+}
+
+.deposit__form {
+    margin: 0;
+}
+
+.deposit__form__elements {
+    padding: 12px;
+    background-color: #fff;
+    box-shadow: 0 0 0 .5px rgba(50, 50, 93, .1), 0 2px 5px 0 rgba(50, 50, 93, .1), 0 1px 1.5px 0 rgba(0, 0, 0, .07);
+}
+
+.deposit__form__errors {
+    display: none;
+    padding: 5px 10px;
+    border: 1px solid #caa;
+    background: #fdd;
+    margin-top: 10px;
+}
+
+.deposit__form__submit {
+    width: 100%;
+    margin-top: 15px;
+}
